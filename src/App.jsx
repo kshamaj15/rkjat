@@ -1,4 +1,7 @@
 import About from './components/About/About';
+import Blog from './components/Blog/Blog';
+import Content from './components/Content/Content';
+import Contact from './components/Contact/Contact';
 import Header from './components/Header/Header';
 
 import classes from './App.module.scss';
@@ -9,7 +12,9 @@ function App() {
       <Header />
       <main>
         <About />
-        <section>sdsa</section>
+        <Blog />
+        <Content />
+        <Contact />
         <section>ds</section>
       </main>
     </div>

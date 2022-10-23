@@ -5,19 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--color-background);
-  color: var(--color-font);
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 
 body {
-  --color-background: hsl(0, 0%, 100%);
-  --color-font: hsl(240, 9%, 29%);
-  --color-font-solid: hsl(0, 0%, 0%);
-  --color-border: hsl(211, 25%, 84%);
-  --color-border-2: hsl(218, 23%, 23%);
-  --color-active: hsl(260, 16%, 93%);
-  --color-tertiary: hsl(258, 50%, 40%);
+  --bg-color: hsl(0, 0%, 100%);
+  --text-color: hsl(240, 9%, 29%);
+  --text-color-solid: hsl(0, 0%, 0%);
+  --border-color: hsl(211, 25%, 84%);
+  --border-color-2: hsl(218, 23%, 23%);
+  --active-color: hsl(260, 16%, 93%);
+  --tertiary-color: hsl(258, 50%, 40%);
 
   /* same for both */
   --primary-color-1: hsl(285, 63%, 44%);
@@ -27,15 +27,15 @@ body {
 
 /* Dark theme colors */
 body.dark {
-  --color-background: hsl(207, 95%, 8%);
-  --color-font: hsl(226, 70%, 88%);
-  --color-font-solid: hsl(0, 0%, 100%);
-  --color-border: hsl(218, 23%, 23%);
-  --color-border-2: hsl(211, 25%, 84%);
-  --color-active: hsl(218, 19%, 17%);
-  --color-tertiary: hsl(186, 73%, 46%);
+  --bg-color: hsl(207, 95%, 8%);
+  --text-color: hsla(0, 0%, 100%, 0.94);
+  --text-color-solid: hsl(0, 0%, 100%);
+  --border-color: hsl(218, 23%, 23%);
+  --border-color-2: hsl(211, 25%, 84%);
+  --active-color: hsl(218, 19%, 17%);
+  --tertiary-color: hsl(186, 73%, 46%);
   --color-white: hsl(0, 0%, 100%);
-  --color-font-2: hsl(240, 9%, 29%);
+  --text-color-2: hsl(240, 9%, 29%);
 
   --primary-color-1: hsl(7, 84%, 71%);
   --primary-color-opacity: hsla(7, 84%, 71%, 0.3);
@@ -47,15 +47,15 @@ body.dark {
 
   /* defaults to dark theme */
   body {
-    --color-background: hsl(207, 95%, 8%);
-    --color-font: hsl(226, 70%, 88%);
-    --color-font-solid: #ffffff;
-    --color-border: hsl(218, 23%, 23%);
-    --color-border-2: hsl(211, 25%, 84%);
-    --color-active: hsl(218, 19%, 17%);
-    --color-tertiary: hsl(186, 73%, 46%);
+    --bg-color: hsl(207, 95%, 8%);
+    --text-color: hsla(0, 0%, 100%, 0.94);
+    --text-color-solid: #ffffff;
+    --border-color: hsl(218, 23%, 23%);
+    --border-color-2: hsl(211, 25%, 84%);
+    --active-color: hsl(218, 19%, 17%);
+    --tertiary-color: hsl(186, 73%, 46%);
     --color-white: hsl(0, 0%, 100%);
-    --color-font-2: hsl(240, 9%, 29%);
+    --text-color-2: hsl(240, 9%, 29%);
 
     --primary-color-1: hsl(7, 84%, 71%);
     --primary-color-opacity: hsla(7, 84%, 71%, 0.3);
@@ -64,13 +64,13 @@ body.dark {
 
   /* Override dark mode with light mode styles if the user decides to swap */
   body.light {
-    --color-background: hsl(0, 0%, 100%);
-    --color-font: hsl(240, 9%, 29%);
-    --color-font-solid: hsl(0, 0%, 0%);
-    --color-border: hsl(211, 25%, 84%);
-    --color-border-2: hsl(218, 23%, 23%);
-    --color-active: hsl(260, 16%, 93%);
-    --color-tertiary: hsl(258, 50%, 40%);
+    --bg-color: hsl(0, 0%, 100%);
+    --text-color: hsl(240, 9%, 29%);
+    --text-color-solid: hsl(0, 0%, 0%);
+    --border-color: hsl(211, 25%, 84%);
+    --border-color-2: hsl(218, 23%, 23%);
+    --active-color: hsl(260, 16%, 93%);
+    --tertiary-color: hsl(258, 50%, 40%);
 
     --primary-color-1: hsl(285, 63%, 44%);
     --primary-color-opacity: hsla(285, 63%, 44%, 0.3);
