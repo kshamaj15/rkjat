@@ -9,8 +9,8 @@ function App() {
       <Header />
       <main>
         <About />
-        <section></section>
-        <section></section>
+        <section>sdsa</section>
+        <section>ds</section>
       </main>
     </div>
   );
