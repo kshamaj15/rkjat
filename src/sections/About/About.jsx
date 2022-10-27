@@ -1,9 +1,9 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 
-import classes from './Content.module.scss';
+import classes from './About.module.scss';
 
-const Content = () => {
+const About = () => {
     return (
         <section className={classes.container}>
             <header>
@@ -21,4 +21,4 @@ const Content = () => {
     )
 }
 
-export default Content;
+export default About;

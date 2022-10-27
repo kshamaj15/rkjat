@@ -1,7 +1,7 @@
-import About from './components/About/About';
-import Blog from './components/Blog/Blog';
-import Content from './components/Content/Content';
-import Contact from './components/Contact/Contact';
+import About from './sections/About/About';
+import Blog from './sections/Blog/Blog';
+import Content from './sections/Content/Content';
+import Contact from './sections/Contact/Contact';
 import Header from './components/Header/Header';
 
 import classes from './App.module.scss';
@@ -13,8 +13,8 @@ function App() {
       <main>
         <About />
         <Blog />
-        <Content />
-        <Contact />
+        {/* <Content />
+        <Contact /> */}
         <section>ds</section>
       </main>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import Button from "../../components/Button/Button";
 
 import classes from './Contact.module.scss';
 
@@ -10,7 +10,10 @@ const Contact = () => {
                 <h1>
                     Hello, Welcome to my page
                 </h1>
-                <p>You can subscribe to my YouTube channel and join my Telegram channel for insights on UPSC prep</p>
+                <p>
+                    You can subscribe to my YouTube channel and join
+                    my Telegram channel for insights on UPSC prep
+                </p>
                 <Button text='Subscibe my YouTube' />
                 <Button text='Join Telegram' />
             </header>
