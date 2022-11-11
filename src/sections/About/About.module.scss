@@ -5,12 +5,11 @@
     color: white;
     text-align: center;
     padding: 100px;
-
     transform: skew(0deg, -4deg);
-    // height: 254px;
 
     h2,
-    p {
+    p,
+    .grid {
         transform: skew(0deg, 4deg);
         max-width: 800px;
         margin: 0 auto
@@ -22,6 +21,30 @@
     }
 
     p {
-        @include common-p
+        @include common-p;
     }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 40px;
+
+        .exams {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .number {
+                @include common-h1;
+                color: yellow;
+                font-weight: 700;
+            }
+
+            .examContent {
+                max-width: 250px;
+                text-align: left;
+            }
+        }
+    }
+
 }
