@@ -4,8 +4,17 @@
     padding: 0 20px;
     align-items: center;
     border-bottom: 1px solid var(--border-color);
+    background-color: #fff;
 
     header {
         max-width: 400px;
+    }
+
+    .imgContainer {
+        max-height: MIN(600px, 70vh);
+
+        img {
+            max-height: MIN(600px, 70vh);
+        }
     }
 }

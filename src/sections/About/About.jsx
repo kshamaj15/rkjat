@@ -14,8 +14,8 @@ const About = () => {
                 <Button text='Subscibe my YouTube' />
                 <Button text='Join Telegram' />
             </header>
-            <aside>
-                <img src="/Assets/main.png" alt="main" />
+            <aside className={classes.imgContainer}>
+                <img src="/Assets/hero.png" alt="main" />
             </aside>
         </section>
     )
