@@ -3,6 +3,9 @@
 }
 
 .gradientDivider {
+  // background: linear-gradient(90deg, #ccc, var(--color-blue), #ccc);
   background: linear-gradient(90deg, #ccc, #000, #ccc);
-  height: 1px;
+  height: 1.5px;
+  max-width: 1220px;
+  margin: 0 auto;
 }

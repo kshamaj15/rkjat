@@ -1,0 +1,28 @@
+@import '../../commonMixins/section.scss';
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.gradientBg {
+    @include gradient;
+    padding: 2px;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    input {
+        font-size: 16px;
+        height: 24px;
+        border-radius: 14px;
+        padding: 10px 20px;
+        border: none;
+        width: calc(100% - 40px);
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

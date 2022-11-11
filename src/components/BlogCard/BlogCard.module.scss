@@ -1,0 +1,32 @@
+@import '../../commonMixins/section.scss';
+
+
+.gradientBg {
+    @include gradient;
+    padding: 3px;
+    border-radius: 24px;
+    width: 318px;
+    cursor: pointer;
+
+    .container {
+        background: #fff;
+        overflow: hidden;
+        border-radius: 21px;
+        padding: 10px;
+
+        h4 {
+            @include common-h4;
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 12px;
+            // width: ;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+    }
+}

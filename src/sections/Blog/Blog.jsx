@@ -19,8 +19,10 @@ const Blog = () => {
 
     return (
         <section className={classes.container}>
-            <h1>Blog</h1>
-            {blogs?.map((blog) => (<BlogCard {...blog} />))}
+            <h2>Blog</h2>
+            <div className={classes.blogs}>
+                {blogs?.map((blog) => (<BlogCard {...blog} />))}
+            </div>
         </section>
     )
 }

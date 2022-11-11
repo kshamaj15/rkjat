@@ -5,7 +5,7 @@ import classes from './Header.module.scss';
 const Header = () => {
     return (
         <header className={classes.header}>
-            <div>
+            {/* <div>
                 LOGO
             </div>
             <nav className={classes.nav}>
@@ -13,7 +13,7 @@ const Header = () => {
                 <li className={classes.tab}><a href="">Blog</a></li>
                 <li className={classes.tab}><a href="">Content</a></li>
                 <li className={classes.tab}><a href="">Contact</a></li>
-            </nav>
+            </nav> */}
         </header>
     )
 

@@ -13,14 +13,11 @@ function App() {
       <Header />
       <main>
         <Hero />
-        {/* <div className={classes.gradientDivider} /> */}
         <About />
-        {/* <div className={classes.gradientDivider} /> */}
         <Blog />
-        <div className={classes.gradientDivider} />
-        {/* <Content />
-        <Contact /> */}
-        <section>ds</section>
+        {/* <div className={classes.gradientDivider} /> */}
+        {/* <Content /> */}
+        <Contact />
       </main>
     </div>
   );

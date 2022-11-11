@@ -1,13 +1,29 @@
-@import '../../index.css';
+@import '../../commonMixins/section.scss';
 
 .container {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 20px;
-    align-items: center;
-    border-bottom: 1px solid var(--border-color);
+    background: linear-gradient(45deg, var(--color-orange-dark), var(--color-blue-dark));
+    color: white;
+    text-align: center;
+    padding: 100px;
+    transform: skew(0deg, 4deg);
 
-    header {
+    h2,
+    .formContainer {
+        transform: skew(0deg, -4deg);
         max-width: 400px;
+        margin: 0 auto
+    }
+
+    h2 {
+        @include common-h2;
+        margin-bottom: 20px;
+    }
+
+    .formContainer {
+        background-color: #fff;
+        padding: 20px 40px;
+        border-radius: 16px;
+        color: #000;
+        text-align: left;
     }
 }
