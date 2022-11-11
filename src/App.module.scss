@@ -1,5 +1,8 @@
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
   background-color: #fff;
+}
+
+.gradientDivider {
+  background: linear-gradient(90deg, #ccc, #000, #ccc);
+  height: 1px;
 }

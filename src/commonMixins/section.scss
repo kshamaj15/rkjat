@@ -1,0 +1,20 @@
+@mixin section {
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+@mixin common-h1 {
+    font-size: 60px;
+    line-height: 80px;
+}
+
+
+@mixin common-h2 {
+    font-size: 40px;
+    line-height: 60px;
+}
+
+@mixin common-p {
+    font-size: 20px;
+    line-height: 30px;
+}

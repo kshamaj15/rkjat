@@ -1,20 +1,27 @@
-.container {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 20px;
-    align-items: center;
-    border-bottom: 1px solid var(--border-color);
-    background-color: #fff;
+@import '../../commonMixins/section.scss';
 
-    header {
-        max-width: 400px;
+.container {
+    background: linear-gradient(45deg, var(--color-orange-dark), var(--color-blue-dark));
+    color: white;
+    text-align: center;
+    padding: 100px;
+
+    transform: skew(0deg, -4deg);
+    // height: 254px;
+
+    h2,
+    p {
+        transform: skew(0deg, 4deg);
+        max-width: 800px;
+        margin: 0 auto
     }
 
-    .imgContainer {
-        max-height: MIN(600px, 70vh);
+    h2 {
+        @include common-h2;
+        margin-bottom: 30px;
+    }
 
-        img {
-            max-height: MIN(600px, 70vh);
-        }
+    p {
+        @include common-p
     }
 }

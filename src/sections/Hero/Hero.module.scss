@@ -1,0 +1,42 @@
+@import '../../commonMixins/section.scss';
+
+.container {
+    @include section;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    align-items: flex-start;
+    background-color: #fff;
+
+    header {
+        max-width: 600px;
+
+        h1 {
+            @include common-h1;
+            margin-bottom: 20px;
+
+            .comma {
+                color: rgb(132, 132, 132);
+            }
+
+            .name {
+                background: -webkit-linear-gradient(30deg, var(--color-orange), var(--color-blue));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .imgContainer {
+        max-height: MIN(600px, 90vh);
+
+        img {
+            max-height: MIN(600px, 90vh);
+        }
+    }
+}
