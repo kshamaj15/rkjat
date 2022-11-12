@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/rkjat-website/static/css/main.9a6a9f80.css",
-    "main.js": "/rkjat-website/static/js/main.4f00d88c.js",
+    "main.css": "/rkjat-website/static/css/main.2809d75a.css",
+    "main.js": "/rkjat-website/static/js/main.268568eb.js",
     "static/js/787.99209d99.chunk.js": "/rkjat-website/static/js/787.99209d99.chunk.js",
+    "static/media/hero.png": "/rkjat-website/static/media/hero.2d1bd18e56ee58dd7dfc.png",
+    "static/media/blog.jpeg": "/rkjat-website/static/media/blog.04f4b71f6a735c30e8bc.jpeg",
+    "static/media/tg.webp": "/rkjat-website/static/media/tg.2e17179f58f479e6f6eb.webp",
     "index.html": "/rkjat-website/index.html",
-    "main.9a6a9f80.css.map": "/rkjat-website/static/css/main.9a6a9f80.css.map",
-    "main.4f00d88c.js.map": "/rkjat-website/static/js/main.4f00d88c.js.map",
+    "main.2809d75a.css.map": "/rkjat-website/static/css/main.2809d75a.css.map",
+    "main.268568eb.js.map": "/rkjat-website/static/js/main.268568eb.js.map",
     "787.99209d99.chunk.js.map": "/rkjat-website/static/js/787.99209d99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a6a9f80.css",
-    "static/js/main.4f00d88c.js"
+    "static/css/main.2809d75a.css",
+    "static/js/main.268568eb.js"
   ]
 }
