@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rkjat,/static/css/main.9a6a9f80.css",
-    "main.js": "/rkjat,/static/js/main.991fd7ec.js",
-    "static/js/787.99209d99.chunk.js": "/rkjat,/static/js/787.99209d99.chunk.js",
-    "index.html": "/rkjat,/index.html",
-    "main.9a6a9f80.css.map": "/rkjat,/static/css/main.9a6a9f80.css.map",
-    "main.991fd7ec.js.map": "/rkjat,/static/js/main.991fd7ec.js.map",
-    "787.99209d99.chunk.js.map": "/rkjat,/static/js/787.99209d99.chunk.js.map"
+    "main.css": "/rkjat/static/css/main.9a6a9f80.css",
+    "main.js": "/rkjat/static/js/main.8cb78c64.js",
+    "static/js/787.99209d99.chunk.js": "/rkjat/static/js/787.99209d99.chunk.js",
+    "index.html": "/rkjat/index.html",
+    "main.9a6a9f80.css.map": "/rkjat/static/css/main.9a6a9f80.css.map",
+    "main.8cb78c64.js.map": "/rkjat/static/js/main.8cb78c64.js.map",
+    "787.99209d99.chunk.js.map": "/rkjat/static/js/787.99209d99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9a6a9f80.css",
-    "static/js/main.991fd7ec.js"
+    "static/js/main.8cb78c64.js"
   ]
 }
