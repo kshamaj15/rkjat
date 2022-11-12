@@ -1,6 +1,10 @@
 import React from "react";
 import Button from "../../components/Button/Button";
 
+import hero from '../../Assets/hero.png';
+import telegram from '../../Assets/tg.webp';
+import youtube from '../../Assets/yt.png';
+
 import classes from './Hero.module.scss';
 
 const Hero = () => {
@@ -25,11 +29,11 @@ const Hero = () => {
                     <span className={classes.name}>Radhakishan</span>
                 </h1>
                 <p>You can subscribe to my YouTube channel and join my Telegram channel for insights on UPSC prep</p>
-                <Button text='Subscibe my YouTube' icon='/Assets/yt.png' onClick={gotoYoutubePage} />
-                <Button text='Join Telegram' icon='/Assets/tg.webp' onClick={gotoTelegram} />
+                <Button text='Subscibe my YouTube' icon={youtube} onClick={gotoYoutubePage} />
+                <Button text='Join Telegram' icon={telegram} onClick={gotoTelegram} />
             </header>
             <aside className={classes.imgContainer}>
-                <img src="/Assets/hero.png" alt="main" />
+                <img src={hero} alt="main" />
             </aside>
         </section>
     )

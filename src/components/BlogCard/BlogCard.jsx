@@ -14,7 +14,7 @@ const BlogCard = ({ imgUrl, title, description, tags, link }) => {
                 <img src={imgUrl} alt='img' height='200px' width='300px' />
                 <h4>{title}</h4>
                 <p>{description}</p>
-                <div>{tags?.map(tag => <span>
+                <div>{tags?.map(tag => <span key={tag}>
                     {tag}
                 </span>)}</div>
             </div>

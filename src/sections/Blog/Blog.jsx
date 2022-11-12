@@ -1,27 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 import BlogCard from "../../components/BlogCard/BlogCard";
+import { BLOGDATA } from "../../constants";
 import classes from './Blog.module.scss';
 
 const Blog = () => {
-
-    const [blogs, setBlogs] = useState([]);
-
-    useEffect(() => {
-        const fetchData = async () => {
-            const data = await fetch('/Assets/BlogData.json');
-            const blogsData = await data.json();
-            console.log(blogsData);
-            setBlogs(blogsData);
-        }
-        fetchData();
-    })
 
     return (
         <section className={classes.container}>
             <h2>Blog</h2>
             <div className={classes.blogs}>
-                {blogs?.map((blog) => (<BlogCard {...blog} />))}
+                {BLOGDATA?.map((blog, index) => (<BlogCard key={index}  {...blog} />))}
             </div>
         </section>
     )

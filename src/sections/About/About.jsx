@@ -1,22 +1,7 @@
 import React from "react";
-import Button from "../../components/Button/Button";
 
+import { EXAMS } from "../../constants";
 import classes from './About.module.scss';
-
-const EXAMS = [{
-    content: 'times cleared the MPPSC civil service prelims exam and been qualified for MPPSC civil mains',
-    number: '3',
-},
-{
-    content: 'times cleared the MPPSC forest service exam and been qualified for MPPSC forset mains',
-    number: '2',
-}, {
-    content: 'times cleared the UPSC civil service exam and written UPSC mains',
-    number: '2',
-}, {
-    content: 'times cleared the UPSC forest service exam and been qualified for UPSC forest mains',
-    number: '1',
-}]
 
 const About = () => {
     return (
@@ -27,7 +12,7 @@ const About = () => {
                 <p>esetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lor</p>
                 <p>Qualified in</p>
                 <div className={classes.grid}>
-                    {EXAMS?.map((exam => (<div className={classes.exams}>
+                    {EXAMS?.map(((exam, index) => (<div key={index} className={classes.exams}>
                         <div className={classes.number}>{exam.number}</div>
                         <div className={classes.examContent}>
                             {exam.content}
