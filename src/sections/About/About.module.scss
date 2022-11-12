@@ -52,5 +52,15 @@
             }
         }
     }
+}
 
+
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        padding: 50px 24px;
+
+        .grid {
+            display: block;
+        }
+    }
 }

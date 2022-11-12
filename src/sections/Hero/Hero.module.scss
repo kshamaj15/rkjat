@@ -39,6 +39,13 @@
 
         img {
             max-height: MIN(600px, 90vh);
+            max-width: 90vw;
         }
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        flex-direction: column;
     }
 }

@@ -27,3 +27,11 @@
         text-align: left;
     }
 }
+
+
+
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        padding: 50px;
+    }
+}

@@ -24,8 +24,7 @@ const Hero = () => {
                     <span>Hi</span>
                     <span className={classes.comma}>,</span>
                     <br />
-                    I am
-                    &nbsp;
+                    I am &nbsp;
                     <span className={classes.name}>Radhakishan</span>
                 </h1>
                 <p>You can subscribe to my YouTube channel and join my Telegram channel for insights on UPSC prep</p>

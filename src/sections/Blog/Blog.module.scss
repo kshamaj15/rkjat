@@ -18,3 +18,16 @@
         @include common-h2;
     }
 }
+
+
+@media (max-width: $breakpoint-mobile) {
+    .container {
+        padding: 50px 24px;
+
+        .blogs {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-content: center;
+        }
+    }
+}
