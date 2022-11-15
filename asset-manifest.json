@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/rkjat-website/static/css/main.8bdf34da.css",
-    "main.js": "/rkjat-website/static/js/main.268568eb.js",
-    "static/js/787.99209d99.chunk.js": "/rkjat-website/static/js/787.99209d99.chunk.js",
-    "static/media/hero.png": "/rkjat-website/static/media/hero.2d1bd18e56ee58dd7dfc.png",
-    "static/media/blog.jpeg": "/rkjat-website/static/media/blog.04f4b71f6a735c30e8bc.jpeg",
-    "static/media/tg.webp": "/rkjat-website/static/media/tg.2e17179f58f479e6f6eb.webp",
-    "index.html": "/rkjat-website/index.html",
-    "main.8bdf34da.css.map": "/rkjat-website/static/css/main.8bdf34da.css.map",
-    "main.268568eb.js.map": "/rkjat-website/static/js/main.268568eb.js.map",
-    "787.99209d99.chunk.js.map": "/rkjat-website/static/js/787.99209d99.chunk.js.map"
+    "main.css": "/static/css/main.8bdf34da.css",
+    "main.js": "/static/js/main.8da0808f.js",
+    "static/js/787.99209d99.chunk.js": "/static/js/787.99209d99.chunk.js",
+    "static/media/hero.png": "/static/media/hero.2d1bd18e56ee58dd7dfc.png",
+    "static/media/blog.jpeg": "/static/media/blog.04f4b71f6a735c30e8bc.jpeg",
+    "static/media/tg.webp": "/static/media/tg.2e17179f58f479e6f6eb.webp",
+    "index.html": "/index.html",
+    "main.8bdf34da.css.map": "/static/css/main.8bdf34da.css.map",
+    "main.8da0808f.js.map": "/static/js/main.8da0808f.js.map",
+    "787.99209d99.chunk.js.map": "/static/js/787.99209d99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8bdf34da.css",
-    "static/js/main.268568eb.js"
+    "static/js/main.8da0808f.js"
   ]
 }
