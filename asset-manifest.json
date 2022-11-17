@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rkjat-website/static/css/main.a3afc6e5.css",
-    "main.js": "/rkjat-website/static/js/main.e997ed06.js",
+    "main.js": "/rkjat-website/static/js/main.fb21b261.js",
     "static/js/787.99209d99.chunk.js": "/rkjat-website/static/js/787.99209d99.chunk.js",
     "static/media/hero.png": "/rkjat-website/static/media/hero.2d1bd18e56ee58dd7dfc.png",
     "static/media/favicon.png": "/rkjat-website/static/media/favicon.2001b9b584048c40265d.png",
@@ -9,11 +9,11 @@
     "static/media/tg.webp": "/rkjat-website/static/media/tg.2e17179f58f479e6f6eb.webp",
     "index.html": "/rkjat-website/index.html",
     "main.a3afc6e5.css.map": "/rkjat-website/static/css/main.a3afc6e5.css.map",
-    "main.e997ed06.js.map": "/rkjat-website/static/js/main.e997ed06.js.map",
+    "main.fb21b261.js.map": "/rkjat-website/static/js/main.fb21b261.js.map",
     "787.99209d99.chunk.js.map": "/rkjat-website/static/js/787.99209d99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3afc6e5.css",
-    "static/js/main.e997ed06.js"
+    "static/js/main.fb21b261.js"
   ]
 }
