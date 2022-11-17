@@ -7,7 +7,7 @@ import classes from './Blog.module.scss';
 const Blog = () => {
 
     return (
-        <section className={classes.container}>
+        <section className={classes.container} id='blog'>
             <h2>Blog</h2>
             <div className={classes.blogs}>
                 {BLOGDATA?.map((blog, index) => (<BlogCard key={index}  {...blog} />))}

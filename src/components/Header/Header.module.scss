@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     padding: 24px;
+    position: fixed;
+    background: #fff;
+    z-index: 10;
+    top: 0;
 
     .nav {
         display: flex;
@@ -16,9 +20,13 @@
             a {
                 text-decoration: none;
                 color: inherit;
+                display: inline-block;
 
-                &:hover {
+                &:hover,
+                &:focus {
                     text-decoration: underline;
+                    color: red;
+
                 }
             }
         }

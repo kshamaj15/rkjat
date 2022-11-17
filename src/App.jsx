@@ -9,7 +9,7 @@ import About from './sections/About/About';
 function App() {
   return (
     <div className={classes.container}>
-      <Header />
+      {/* <Header /> */}
       <main>
         <Hero />
         <About />

@@ -24,7 +24,13 @@ body.dark {
   --color-orange: hsl(15, 69%, 51%);
   --color-blue: hsl(235, 91%, 18%);
   --color-orange-dark: hsl(15, 67%, 20%);
-  --color-blue-dark: hsl(235, 91%, 3%);
+  --color-blue-dark: hsl(236, 88%, 3%);
+}
+
+.active {
+  text-decoration: underline;
+  color: red;
+  background-color: white;
 }
 
 /* Styles for users who prefer dark mode at the OS level */
